@@ -17,6 +17,7 @@
 		19A8985C1ECD38B60050E216 /* SmartParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8985B1ECD38B60050E216 /* SmartParkUITests.swift */; };
 		19C9C36A1ECD4D08000F21AC /* smart.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3691ECD4D08000F21AC /* smart.png */; };
 		19C9C36C1ECD4F37000F21AC /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9C36B1ECD4F37000F21AC /* LocationViewController.swift */; };
+<<<<<<< Updated upstream
 		F15ED9291ECD80590092A193 /* IMG_6132.JPG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F15ED9281ECD80590092A193 /* IMG_6132.JPG.jpeg */; };
 		F15ED92B1ECD81F20092A193 /* IMG_6133.JPG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F15ED92A1ECD81F20092A193 /* IMG_6133.JPG.jpeg */; };
 		F15ED92D1ECD82B90092A193 /* IMG_6133.JPG.png in Resources */ = {isa = PBXBuildFile; fileRef = F15ED92C1ECD82B90092A193 /* IMG_6133.JPG.png */; };
@@ -32,6 +33,12 @@
 		F15ED9411ECD8C920092A193 /* KinXrdkzT.png in Resources */ = {isa = PBXBuildFile; fileRef = F15ED9401ECD8C920092A193 /* KinXrdkzT.png */; };
 		F15ED9431ECD8CE00092A193 /* IMG_6134.JPG.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F15ED9421ECD8CE00092A193 /* IMG_6134.JPG.jpeg */; };
 		F15ED9451ECD8E180092A193 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F15ED9441ECD8E180092A193 /* download.jpeg */; };
+=======
+		19C9C3711ECDD9B4000F21AC /* IMG_4186.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C36D1ECDD9B4000F21AC /* IMG_4186.JPG */; };
+		19C9C3721ECDD9B4000F21AC /* IMG_4187 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C36E1ECDD9B4000F21AC /* IMG_4187 2.JPG */; };
+		19C9C3731ECDD9B4000F21AC /* IMG_4188 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C36F1ECDD9B4000F21AC /* IMG_4188 2.JPG */; };
+		19C9C3741ECDD9B4000F21AC /* IMG_4189.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3701ECDD9B4000F21AC /* IMG_4189.JPG */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +75,7 @@
 		19A8985D1ECD38B60050E216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19C9C3691ECD4D08000F21AC /* smart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smart.png; path = ../../../../../Downloads/smart.png; sourceTree = "<group>"; };
 		19C9C36B1ECD4F37000F21AC /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		F15ED9281ECD80590092A193 /* IMG_6132.JPG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6132.JPG.jpeg; path = "../../../Pictures/Photos Library.photoslibrary/Masters/2017/05/18/20170518-070831/IMG_6132.JPG.jpeg"; sourceTree = "<group>"; };
 		F15ED92A1ECD81F20092A193 /* IMG_6133.JPG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6133.JPG.jpeg; path = ../../../Downloads/IMG_6133.JPG.jpeg; sourceTree = "<group>"; };
 		F15ED92C1ECD82B90092A193 /* IMG_6133.JPG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_6133.JPG.png; path = ../../../Downloads/IMG_6133.JPG.png; sourceTree = "<group>"; };
@@ -83,6 +91,12 @@
 		F15ED9401ECD8C920092A193 /* KinXrdkzT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KinXrdkzT.png; path = ../../../Downloads/KinXrdkzT.png; sourceTree = "<group>"; };
 		F15ED9421ECD8CE00092A193 /* IMG_6134.JPG.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6134.JPG.jpeg; path = ../../../Downloads/IMG_6134.JPG.jpeg; sourceTree = "<group>"; };
 		F15ED9441ECD8E180092A193 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = download.jpeg; path = ../../../Downloads/download.jpeg; sourceTree = "<group>"; };
+=======
+		19C9C36D1ECDD9B4000F21AC /* IMG_4186.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4186.JPG; path = ../../../../../Downloads/IMG_4186.JPG; sourceTree = "<group>"; };
+		19C9C36E1ECDD9B4000F21AC /* IMG_4187 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4187 2.JPG"; path = "../../../../../Downloads/IMG_4187 2.JPG"; sourceTree = "<group>"; };
+		19C9C36F1ECDD9B4000F21AC /* IMG_4188 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4188 2.JPG"; path = "../../../../../Downloads/IMG_4188 2.JPG"; sourceTree = "<group>"; };
+		19C9C3701ECDD9B4000F21AC /* IMG_4189.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4189.JPG; path = ../../../../../Downloads/IMG_4189.JPG; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +171,10 @@
 				19A898471ECD38B60050E216 /* Info.plist */,
 				19A8983F1ECD38B60050E216 /* SmartPark.xcdatamodeld */,
 				19C9C36B1ECD4F37000F21AC /* LocationViewController.swift */,
+				19C9C36D1ECDD9B4000F21AC /* IMG_4186.JPG */,
+				19C9C36E1ECDD9B4000F21AC /* IMG_4187 2.JPG */,
+				19C9C36F1ECDD9B4000F21AC /* IMG_4188 2.JPG */,
+				19C9C3701ECDD9B4000F21AC /* IMG_4189.JPG */,
 			);
 			path = SmartPark;
 			sourceTree = "<group>";
@@ -299,6 +317,7 @@
 				F15ED92F1ECD83070092A193 /* IMG_6132.JPG.png in Resources */,
 				F15ED9431ECD8CE00092A193 /* IMG_6134.JPG.jpeg in Resources */,
 				19A898431ECD38B60050E216 /* Assets.xcassets in Resources */,
+<<<<<<< Updated upstream
 				F15ED9291ECD80590092A193 /* IMG_6132.JPG.jpeg in Resources */,
 				F15ED92D1ECD82B90092A193 /* IMG_6133.JPG.png in Resources */,
 				19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */,
@@ -307,7 +326,14 @@
 				F15ED9411ECD8C920092A193 /* KinXrdkzT.png in Resources */,
 				F15ED93B1ECD878F0092A193 /* IMG_6131.JPG.jpeg in Resources */,
 				F15ED9331ECD84680092A193 /* Picture3.png in Resources */,
+=======
+				19C9C3711ECDD9B4000F21AC /* IMG_4186.JPG in Resources */,
+				19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */,
+				19C9C3731ECDD9B4000F21AC /* IMG_4188 2.JPG in Resources */,
+				19C9C3741ECDD9B4000F21AC /* IMG_4189.JPG in Resources */,
+>>>>>>> Stashed changes
 				19C9C36A1ECD4D08000F21AC /* smart.png in Resources */,
+				19C9C3721ECDD9B4000F21AC /* IMG_4187 2.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
