@@ -148,6 +148,10 @@
                                 <rect key="frame" x="155" y="72" width="67" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="G66-HT-Y1v">
+                                <rect key="frame" x="1" y="565" width="12" height="11"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98970585190000004" blue="0.68400180990000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <variation key="default">
@@ -193,8 +197,12 @@
                                 <rect key="frame" x="154" y="28" width="67" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="23i-kv-SO3">
+                                <rect key="frame" x="2" y="560" width="13" height="11"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="banner1.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Jn-cF-9dY">
-                                <rect key="frame" x="1" y="561" width="374" height="106"/>
+                                <rect key="frame" x="0.0" y="561" width="374" height="106"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -222,7 +230,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Leaving a spot?"/>
                                 <connections>
-                                    <segue destination="dbu-Q7-mOS" kind="show" id="UgD-R8-24I"/>
+                                    <segue destination="uGA-CQ-BFF" kind="show" id="rii-18-viJ"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="or" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dso-yX-PFd">
@@ -259,6 +267,10 @@
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="images1 copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1om-Rq-4yi">
                                 <rect key="frame" x="0.0" y="535" width="374" height="132"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="JYD-lv-jeR">
+                                <rect key="frame" x="5" y="539" width="10" height="11"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -316,6 +328,10 @@
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="banner1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cmx-MX-f09">
                                 <rect key="frame" x="0.0" y="561" width="374" height="106"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tio-dg-3gS">
+                                <rect key="frame" x="6" y="567" width="10" height="11"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -400,6 +416,10 @@
                                     <segue destination="uZv-RP-e0L" kind="show" id="73o-k5-6NW"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="RSX-x0-rMD">
+                                <rect key="frame" x="5" y="564" width="10" height="11"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98970585190000004" blue="0.68400180990000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -439,18 +459,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qx9-Dm-f59">
-                                <rect key="frame" x="0.0" y="204" width="375" height="463"/>
+                                <rect key="frame" x="0.0" y="160" width="375" height="507"/>
                                 <subviews>
                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jqv-jW-HrV">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="463"/>
                                     </mapView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bulls.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="qoY-Fi-VD2">
-                                        <rect key="frame" x="0.0" y="463" width="375" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="463" width="375" height="44"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfG-XF-v5m">
-                                <rect key="frame" x="302" y="64" width="57" height="30"/>
+                                <rect key="frame" x="309" y="41" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1002671903" green="0.65315271090000004" blue="0.1276717762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -459,18 +479,18 @@
                                     <segue destination="bdk-78-wFM" kind="show" id="wbO-f5-4HY"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="smartsmall.png" translatesAutoresizingMaskIntoConstraints="NO" id="9CG-62-4pq">
-                                <rect key="frame" x="151" y="72" width="67" height="72"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Based on your current location the parking in your area is as follows:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1a7-6n-BcC">
-                                <rect key="frame" x="67" y="143" width="240" height="53"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The following parking is available in your area:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1a7-6n-BcC">
+                                <rect key="frame" x="67" y="109" width="240" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1002671903" green="0.65315271090000004" blue="0.1276717762" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.10712525993585587" green="0.050148434937000275" blue="0.89082926511764526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="smartsmall.png" translatesAutoresizingMaskIntoConstraints="NO" id="9CG-62-4pq">
+                                <rect key="frame" x="154" y="41" width="67" height="72"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10026719031574974" green="0.65315271089524785" blue="0.12767177623024514" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -536,6 +556,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="edC-4z-imC"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4e-Wf-Erw">
+                                <rect key="frame" x="6" y="565" width="10" height="11"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98970585190000004" blue="0.68400180990000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -716,10 +740,10 @@ FiBSZW1lYmVyIG15IHBhc3N3b3JkA
             </objects>
             <point key="canvasLocation" x="488.80000000000001" y="25.637181409295355"/>
         </scene>
-        <!--View Controller-->
+        <!--Leaving Spot View Controller-->
         <scene sceneID="Ubd-Zu-vIs">
             <objects>
-                <viewController id="uGA-CQ-BFF" sceneMemberID="viewController">
+                <viewController id="uGA-CQ-BFF" customClass="LeavingSpotViewController" customModule="SmartPark" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m1d-Cm-mcu"/>
                         <viewControllerLayoutGuide type="bottom" id="G3y-M2-Jr9"/>
@@ -727,15 +751,72 @@ FiBSZW1lYmVyIG15IHBhc3N3b3JkA
                     <view key="view" contentMode="scaleToFill" id="koz-7L-NNZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="smartsmall.png" translatesAutoresizingMaskIntoConstraints="NO" id="vBg-pc-k8Z">
+                                <rect key="frame" x="154" y="20" width="67" height="72"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="A3h-xg-6N2">
+                                <rect key="frame" x="0.0" y="176" width="375" height="351"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="starbucks.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="joX-mm-CF9">
+                                <rect key="frame" x="-91" y="567" width="528" height="106"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Ad exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="o3n-pg-fjW">
+                                <rect key="frame" x="6" y="574" width="10" height="11"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You have 15 minutes to vacate the spot" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bFW-Ue-Bei">
+                                <rect key="frame" x="67" y="92" width="240" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2616652625" green="0.57794252690000003" blue="0.165383013" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.10712525993585587" green="0.050148434937000275" blue="0.89082926511764526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zi-Ef-r95">
+                                <rect key="frame" x="113" y="529" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Left Spot"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opj-wv-2Ld">
+                                <rect key="frame" x="6" y="123" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="uGA-CQ-BFF" eventType="touchUpInside" id="WiD-5Z-CHd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9A-AY-hjx">
+                                <rect key="frame" x="303" y="123" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6W-q4-rJ0">
+                                <rect key="frame" x="118" y="147" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2616652625" green="0.57794252690000003" blue="0.165383013" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="LeavingSpotMAp" destination="A3h-xg-6N2" id="Tfi-NS-8IS"/>
+                        <outlet property="TimerLabel" destination="D6W-q4-rJ0" id="D0y-nU-j8o"/>
+                        <outlet property="timer" destination="D6W-q4-rJ0" id="Xpu-Lq-ucI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RfT-NY-0gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-20" y="812"/>
+            <point key="canvasLocation" x="-20" y="811.84407796101959"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Ad exit.png" width="10" height="11"/>
         <image name="IMG_4188 2.JPG" width="188" height="106"/>
         <image name="KinXrdkzT.png" width="298" height="264"/>
         <image name="banner1.png" width="374" height="106"/>
@@ -746,7 +827,7 @@ FiBSZW1lYmVyIG15IHBhc3N3b3JkA
         <image name="starbucks.jpeg" width="528" height="106"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ywz-Qv-cxe"/>
+        <segue reference="eWP-U6-ErK"/>
         <segue reference="ez7-5O-CoL"/>
         <segue reference="obD-nT-j2E"/>
         <segue reference="wpR-dq-bAd"/>

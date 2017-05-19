@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196DEA661ECF223400BC1A81 /* Ad exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 196DEA651ECF223400BC1A81 /* Ad exit.png */; };
+		196DEA681ECF373A00BC1A81 /* LeavingSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEA671ECF373A00BC1A81 /* LeavingSpotViewController.swift */; };
 		19A898391ECD38B60050E216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A898381ECD38B60050E216 /* AppDelegate.swift */; };
 		19A8983B1ECD38B60050E216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8983A1ECD38B60050E216 /* ViewController.swift */; };
 		19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A8983C1ECD38B60050E216 /* Main.storyboard */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		196DEA651ECF223400BC1A81 /* Ad exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ad exit.png"; sourceTree = "<group>"; };
+		196DEA671ECF373A00BC1A81 /* LeavingSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavingSpotViewController.swift; sourceTree = "<group>"; };
 		19A898351ECD38B60050E216 /* SmartPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A898381ECD38B60050E216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19A8983A1ECD38B60050E216 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */,
 				19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */,
 				19A8983C1ECD38B60050E216 /* Main.storyboard */,
+				196DEA671ECF373A00BC1A81 /* LeavingSpotViewController.swift */,
+				196DEA651ECF223400BC1A81 /* Ad exit.png */,
 				19E50DDF1ECEA3700086A526 /* DisplayParkingViewController.swift */,
 				19F9B9FD1ECE982200D4E6C0 /* bulls.jpeg */,
 				19F9B9FB1ECE969B00D4E6C0 /* starbucks.jpeg */,
@@ -319,6 +325,7 @@
 				19F9B9E21ECE75B500D4E6C0 /* KinXrdkzT.png in Resources */,
 				19F9B9E11ECE75B500D4E6C0 /* download.jpeg in Resources */,
 				19F9B9E61ECE794A00D4E6C0 /* banner1.png in Resources */,
+				196DEA661ECF223400BC1A81 /* Ad exit.png in Resources */,
 				19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +355,7 @@
 				19F9B9F61ECE8B7600D4E6C0 /* SettingsConfirmedViewController.swift in Sources */,
 				19F9B9F01ECE8A9F00D4E6C0 /* GettingStartedViewController.swift in Sources */,
 				19A8983B1ECD38B60050E216 /* ViewController.swift in Sources */,
+				196DEA681ECF373A00BC1A81 /* LeavingSpotViewController.swift in Sources */,
 				19A898411ECD38B60050E216 /* SmartPark.xcdatamodeld in Sources */,
 				19F9B9F41ECE8B1D00D4E6C0 /* EditMyProfileViewController.swift in Sources */,
 				19F9B9EC1ECE89C800D4E6C0 /* ResetPasswordViewController.swift in Sources */,

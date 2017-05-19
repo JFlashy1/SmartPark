@@ -30,7 +30,7 @@ class LocationViewController: UIViewController {
         // ,
         let point = MKPointAnnotation()
         point.coordinate = CLLocationCoordinate2D(latitude: 35.996947, longitude:  -78.904975)
-        point.title = "Park Spot currently unavailable"
+        point.title = "Parking Spot currently unavailable"
        
        
         mapView.addAnnotation(point)
@@ -71,116 +71,116 @@ class LocationViewController: UIViewController {
         mapView.addAnnotation(pointSix)
         
         //Point #7
-        let pointSeven = MKPointAnnotation()
-        pointSeven.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointSeven.title = "Civic center"
+        let pointSeven = MKPointAnnotation() //35.991073, -78.902370
+        pointSeven.coordinate = CLLocationCoordinate2D(latitude: 35.991073, longitude: -78.902370)
+        pointSeven.title = "Parking Lot is full"
         mapView.addAnnotation(pointSeven)
         
-        //Point #8
+        //Point #8 //35.990216, -78.905209
         let pointEight = MKPointAnnotation()
-        pointEight.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointEight.title = "Civic center"
+        pointEight.coordinate = CLLocationCoordinate2D(latitude: 35.990216, longitude: -78.905209)
+        pointEight.title = "Parking Spot is Available"
         mapView.addAnnotation(pointEight)
-        //Point #9
+        //Point #9 //35.990452, -78.905841
         
         let pointNine = MKPointAnnotation()
-        pointNine.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointNine.title = "Civic center"
+        pointNine.coordinate = CLLocationCoordinate2D(latitude: 35.990452, longitude: -78.905841)
+        pointNine.title = "Parking Spot currently unavailable"
         mapView.addAnnotation(pointNine)
         
-        //Point #10
+        //Point #10 //35.996297, -78.902890
         let pointTen = MKPointAnnotation()
-        pointTen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTen.title = "Civic center"
+        pointTen.coordinate = CLLocationCoordinate2D(latitude: 35.996297, longitude:  -78.902890)
+        pointTen.title = "Parking Spot is Available"
         mapView.addAnnotation(pointTen)
         
-        //Point #11
+        //Point #11 35.996412, -78.903105
         let pointEleven = MKPointAnnotation()
-        pointEleven.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointEleven.title = "Civic center"
+        pointEleven.coordinate = CLLocationCoordinate2D(latitude: 35.996412, longitude: -78.903105)
+        pointEleven.title = "Parking Spot is Available"
         mapView.addAnnotation(pointEleven)
         
-        //point #12
+        //point #12 35.996787, -78.903101 //parking lot full
         let pointTwelve = MKPointAnnotation()
-        pointTwelve.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwelve.title = "Civic center"
+        pointTwelve.coordinate = CLLocationCoordinate2D(latitude: 35.996787, longitude: -78.903101)
+        pointTwelve.title = "Parking lot full"
         mapView.addAnnotation(pointTwelve)
         
-        //point13
+        //point13 35.996256, -78.902837
         let pointThirteen = MKPointAnnotation()
-        pointThirteen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointThirteen.title = "Civic center"
+        pointThirteen.coordinate = CLLocationCoordinate2D(latitude: 35.996256, longitude: -78.902837)
+        pointThirteen.title = "Parking Spot is Available"
         mapView.addAnnotation(pointThirteen)
         
-        //point14
+        //point14 35.996693, -78.903624
         let pointFourteen = MKPointAnnotation()
-        pointFourteen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointFourteen.title = "Civic center"
+        pointFourteen.coordinate = CLLocationCoordinate2D(latitude: 35.996693, longitude: -78.903624)
+        pointFourteen.title = "Parking Spot currently unavailable"
         mapView.addAnnotation(pointFourteen)
         
-        //point 15
+        //point 15 35.996033, -78.903649
         let pointFifteen = MKPointAnnotation()
-        pointFifteen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointFifteen.title = "Civic center"
+        pointFifteen.coordinate = CLLocationCoordinate2D(latitude: 35.996033, longitude: -78.903649)
+        pointFifteen.title = "Parking Lot is full"
         mapView.addAnnotation(pointFifteen)
         
-        //point 16
+        //point 16 35.996033, -78.903649
         let pointSixteen = MKPointAnnotation()
-        pointSixteen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointSixteen.title = "Civic center"
+        pointSixteen.coordinate = CLLocationCoordinate2D(latitude: 35.996033, longitude: -78.903649)
+        pointSixteen.title = "Parking Spot is Available"
         mapView.addAnnotation(pointSixteen)
         
-        //point 17
+        //point 17 35.995927, -78.900926
         let pointSeventeen = MKPointAnnotation()
-        pointSeventeen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointSeventeen.title = "Civic center"
+        pointSeventeen.coordinate = CLLocationCoordinate2D(latitude: 35.995927, longitude: -78.900926)
+        pointSeventeen.title = "Parking Spot is Available"
         mapView.addAnnotation(pointSeventeen)
         
-        //point 18
+        //point 18  35.996110, -78.901214
         let pointEighteen = MKPointAnnotation()
-        pointEighteen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointEighteen.title = "Civic center"
+        pointEighteen.coordinate = CLLocationCoordinate2D(latitude: 35.996110, longitude: -78.901214)
+        pointEighteen.title = "Parking Spot is Available"
         mapView.addAnnotation(pointEighteen)
         
-        //point 19
+        //point 19 35.998478, -78.901585
         let pointNineteen = MKPointAnnotation()
-        pointNineteen.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTen.title = "Civic center"
+        pointNineteen.coordinate = CLLocationCoordinate2D(latitude: 35.998478, longitude: -78.901585)
+        pointTen.title = "Parking Spot currently unavailable"
         mapView.addAnnotation(pointNineteen)
         
-        //point 20
+        //point 20 35.994179, -78.903170
         let pointTwenty = MKPointAnnotation()
-        pointTwenty.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwenty.title = "Civic center"
+        pointTwenty.coordinate = CLLocationCoordinate2D(latitude: 35.994179, longitude: -78.903170)
+        pointTwenty.title = "Parking Spot is Available"
         mapView.addAnnotation(pointTwenty)
         
-        //point 25
+        //point 25 35.996933, -78.900470
         let pointTwentyFive = MKPointAnnotation()
-        pointTwentyFive.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwentyFive.title = "Civic center"
+        pointTwentyFive.coordinate = CLLocationCoordinate2D(latitude: 35.996933, longitude: -78.900470)
+        pointTwentyFive.title = "Parking currently unavailable"
         mapView.addAnnotation(pointTwentyFive)
         
-        //point 21
+        //point 21 35.999587, -78.900716 parking lot
         let pointTwentyOne = MKPointAnnotation()
-        pointTwentyOne.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwentyOne.title = "Civic center"
+        pointTwentyOne.coordinate = CLLocationCoordinate2D(latitude: 35.999587, longitude: -78.900716)
+        pointTwentyOne.title = "Parking Spot is Available"
         mapView.addAnnotation(pointTwentyOne)
         
-        //point 22
+        //point 22 35.990502, -78.898961
         let pointTwentyTwo = MKPointAnnotation()
-        pointTwentyTwo.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwentyTwo.title = "Civic center"
+        pointTwentyTwo.coordinate = CLLocationCoordinate2D(latitude: 35.990502, longitude: -78.898961)
+        pointTwentyTwo.title = "Parking Spot is Available"
         mapView.addAnnotation(pointTwentyTwo)
         
-        //point 23
+        //point 23 35.990684, -78.899304
         let pointTwentyThree = MKPointAnnotation()
-        pointTwentyThree.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwentyThree.title = "Civic center"
+        pointTwentyThree.coordinate = CLLocationCoordinate2D(latitude: 35.990684, longitude: -78.899304)
+        pointTwentyThree.title = "Parking Spot is Available"
         mapView.addAnnotation(pointTwentyThree)
-        //point 24
+        //point 24 35.989530, -78.900088
         let pointTwentyFour = MKPointAnnotation()
-        pointTwentyFour.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointTwentyFour.title = "Civic center"
+        pointTwentyFour.coordinate = CLLocationCoordinate2D(latitude: 35.989530, longitude: -78.900088)
+        pointTwentyFour.title = "Parking Spot is unavailable"
         mapView.addAnnotation(pointTwentyFour)
         
         
