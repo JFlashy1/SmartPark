@@ -15,14 +15,27 @@
 		19A898461ECD38B60050E216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A898441ECD38B60050E216 /* LaunchScreen.storyboard */; };
 		19A898511ECD38B60050E216 /* SmartParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A898501ECD38B60050E216 /* SmartParkTests.swift */; };
 		19A8985C1ECD38B60050E216 /* SmartParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8985B1ECD38B60050E216 /* SmartParkUITests.swift */; };
-		19C9C36A1ECD4D08000F21AC /* smart.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3691ECD4D08000F21AC /* smart.png */; };
 		19C9C36C1ECD4F37000F21AC /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9C36B1ECD4F37000F21AC /* LocationViewController.swift */; };
 		19C9C3761ECDE2BF000F21AC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9C3751ECDE2BF000F21AC /* CreateAccountViewController.swift */; };
-		19C9C37B1ECDE37F000F21AC /* smart (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3771ECDE37F000F21AC /* smart (1).png */; };
 		19C9C37C1ECDE37F000F21AC /* IMG_4186 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3781ECDE37F000F21AC /* IMG_4186 2.JPG */; };
 		19C9C37D1ECDE37F000F21AC /* IMG_4187 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */; };
 		19C9C37E1ECDE37F000F21AC /* IMG_4188 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */; };
 		19C9C3801ECDFAF0000F21AC /* american-underground.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C37F1ECDFAF0000F21AC /* american-underground.gpx */; };
+		19F9B9E11ECE75B500D4E6C0 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9DF1ECE75B500D4E6C0 /* download.jpeg */; };
+		19F9B9E21ECE75B500D4E6C0 /* KinXrdkzT.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E01ECE75B500D4E6C0 /* KinXrdkzT.png */; };
+		19F9B9E41ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E31ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png */; };
+		19F9B9E61ECE794A00D4E6C0 /* banner1.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E51ECE794A00D4E6C0 /* banner1.png */; };
+		19F9B9E81ECE7AA700D4E6C0 /* smartsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E71ECE7AA700D4E6C0 /* smartsmall.png */; };
+		19F9B9EA1ECE7F2500D4E6C0 /* smart (1) 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E91ECE7F2500D4E6C0 /* smart (1) 2.png */; };
+		19F9B9EC1ECE89C800D4E6C0 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9B9EB1ECE89C800D4E6C0 /* ResetPasswordViewController.swift */; };
+		19F9B9EE1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9B9ED1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift */; };
+		19F9B9F01ECE8A9F00D4E6C0 /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9B9EF1ECE8A9F00D4E6C0 /* GettingStartedViewController.swift */; };
+		19F9B9F21ECE8AF300D4E6C0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9B9F11ECE8AF300D4E6C0 /* SettingsViewController.swift */; };
+		19F9B9F41ECE8B1D00D4E6C0 /* EditMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9B9F31ECE8B1D00D4E6C0 /* EditMyProfileViewController.swift */; };
+		19F9B9F61ECE8B7600D4E6C0 /* SettingsConfirmedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9B9F51ECE8B7600D4E6C0 /* SettingsConfirmedViewController.swift */; };
+		19F9B9FA1ECE963300D4E6C0 /* images1 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9F91ECE963300D4E6C0 /* images1 copy.jpg */; };
+		19F9B9FC1ECE969B00D4E6C0 /* starbucks.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9FB1ECE969B00D4E6C0 /* starbucks.jpeg */; };
+		19F9B9FE1ECE982200D4E6C0 /* bulls.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9FD1ECE982200D4E6C0 /* bulls.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +70,27 @@
 		19A898571ECD38B60050E216 /* SmartParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A8985B1ECD38B60050E216 /* SmartParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkUITests.swift; sourceTree = "<group>"; };
 		19A8985D1ECD38B60050E216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19C9C3691ECD4D08000F21AC /* smart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smart.png; path = ../../../../../Downloads/smart.png; sourceTree = "<group>"; };
 		19C9C36B1ECD4F37000F21AC /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		19C9C3751ECDE2BF000F21AC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		19C9C3771ECDE37F000F21AC /* smart (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smart (1).png"; path = "../../../../../Downloads/smart (1).png"; sourceTree = "<group>"; };
 		19C9C3781ECDE37F000F21AC /* IMG_4186 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4186 2.JPG"; path = "../../../../../Downloads/IMG_4186 2.JPG"; sourceTree = "<group>"; };
 		19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4187 2.JPG"; path = "../../../../../Downloads/IMG_4187 2.JPG"; sourceTree = "<group>"; };
 		19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4188 2.JPG"; path = "../../../../../Downloads/IMG_4188 2.JPG"; sourceTree = "<group>"; };
 		19C9C37F1ECDFAF0000F21AC /* american-underground.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "american-underground.gpx"; sourceTree = "<group>"; };
+		19F9B9DF1ECE75B500D4E6C0 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		19F9B9E01ECE75B500D4E6C0 /* KinXrdkzT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KinXrdkzT.png; sourceTree = "<group>"; };
+		19F9B9E31ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CC_TTF_Website_Banner-Slider_bannerENGLISH3.png"; sourceTree = "<group>"; };
+		19F9B9E51ECE794A00D4E6C0 /* banner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner1.png; sourceTree = "<group>"; };
+		19F9B9E71ECE7AA700D4E6C0 /* smartsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartsmall.png; sourceTree = "<group>"; };
+		19F9B9E91ECE7F2500D4E6C0 /* smart (1) 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "smart (1) 2.png"; path = "../smart (1) 2.png"; sourceTree = "<group>"; };
+		19F9B9EB1ECE89C800D4E6C0 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		19F9B9ED1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordWasResetViewController.swift; sourceTree = "<group>"; };
+		19F9B9EF1ECE8A9F00D4E6C0 /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
+		19F9B9F11ECE8AF300D4E6C0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		19F9B9F31ECE8B1D00D4E6C0 /* EditMyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMyProfileViewController.swift; sourceTree = "<group>"; };
+		19F9B9F51ECE8B7600D4E6C0 /* SettingsConfirmedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsConfirmedViewController.swift; sourceTree = "<group>"; };
+		19F9B9F91ECE963300D4E6C0 /* images1 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images1 copy.jpg"; sourceTree = "<group>"; };
+		19F9B9FB1ECE969B00D4E6C0 /* starbucks.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks.jpeg; sourceTree = "<group>"; };
+		19F9B9FD1ECE982200D4E6C0 /* bulls.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bulls.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,16 +142,29 @@
 		19A898371ECD38B60050E216 /* SmartPark */ = {
 			isa = PBXGroup;
 			children = (
+				19F9B9E91ECE7F2500D4E6C0 /* smart (1) 2.png */,
+				19F9B9E71ECE7AA700D4E6C0 /* smartsmall.png */,
+				19F9B9E51ECE794A00D4E6C0 /* banner1.png */,
+				19F9B9E31ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png */,
+				19F9B9DF1ECE75B500D4E6C0 /* download.jpeg */,
+				19F9B9E01ECE75B500D4E6C0 /* KinXrdkzT.png */,
+				19F9B9EB1ECE89C800D4E6C0 /* ResetPasswordViewController.swift */,
 				19A898381ECD38B60050E216 /* AppDelegate.swift */,
 				19A8983A1ECD38B60050E216 /* ViewController.swift */,
 				19C9C36B1ECD4F37000F21AC /* LocationViewController.swift */,
 				19C9C3751ECDE2BF000F21AC /* CreateAccountViewController.swift */,
-				19C9C3771ECDE37F000F21AC /* smart (1).png */,
 				19C9C3781ECDE37F000F21AC /* IMG_4186 2.JPG */,
 				19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */,
 				19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */,
 				19A8983C1ECD38B60050E216 /* Main.storyboard */,
-				19C9C3691ECD4D08000F21AC /* smart.png */,
+				19F9B9FD1ECE982200D4E6C0 /* bulls.jpeg */,
+				19F9B9FB1ECE969B00D4E6C0 /* starbucks.jpeg */,
+				19F9B9F91ECE963300D4E6C0 /* images1 copy.jpg */,
+				19F9B9F51ECE8B7600D4E6C0 /* SettingsConfirmedViewController.swift */,
+				19F9B9F31ECE8B1D00D4E6C0 /* EditMyProfileViewController.swift */,
+				19F9B9F11ECE8AF300D4E6C0 /* SettingsViewController.swift */,
+				19F9B9EF1ECE8A9F00D4E6C0 /* GettingStartedViewController.swift */,
+				19F9B9ED1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift */,
 				19A898421ECD38B60050E216 /* Assets.xcassets */,
 				19A898441ECD38B60050E216 /* LaunchScreen.storyboard */,
 				19A898471ECD38B60050E216 /* Info.plist */,
@@ -262,15 +301,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F9B9FE1ECE982200D4E6C0 /* bulls.jpeg in Resources */,
 				19C9C37E1ECDE37F000F21AC /* IMG_4188 2.JPG in Resources */,
 				19A898461ECD38B60050E216 /* LaunchScreen.storyboard in Resources */,
-				19C9C37B1ECDE37F000F21AC /* smart (1).png in Resources */,
+				19F9B9E81ECE7AA700D4E6C0 /* smartsmall.png in Resources */,
+				19F9B9FA1ECE963300D4E6C0 /* images1 copy.jpg in Resources */,
+				19F9B9FC1ECE969B00D4E6C0 /* starbucks.jpeg in Resources */,
 				19C9C37D1ECDE37F000F21AC /* IMG_4187 2.JPG in Resources */,
 				19C9C37C1ECDE37F000F21AC /* IMG_4186 2.JPG in Resources */,
 				19A898431ECD38B60050E216 /* Assets.xcassets in Resources */,
+				19F9B9E41ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png in Resources */,
+				19F9B9EA1ECE7F2500D4E6C0 /* smart (1) 2.png in Resources */,
 				19C9C3801ECDFAF0000F21AC /* american-underground.gpx in Resources */,
+				19F9B9E21ECE75B500D4E6C0 /* KinXrdkzT.png in Resources */,
+				19F9B9E11ECE75B500D4E6C0 /* download.jpeg in Resources */,
+				19F9B9E61ECE794A00D4E6C0 /* banner1.png in Resources */,
 				19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */,
-				19C9C36A1ECD4D08000F21AC /* smart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +342,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C9C3761ECDE2BF000F21AC /* CreateAccountViewController.swift in Sources */,
+				19F9B9F61ECE8B7600D4E6C0 /* SettingsConfirmedViewController.swift in Sources */,
+				19F9B9F01ECE8A9F00D4E6C0 /* GettingStartedViewController.swift in Sources */,
 				19A8983B1ECD38B60050E216 /* ViewController.swift in Sources */,
 				19A898411ECD38B60050E216 /* SmartPark.xcdatamodeld in Sources */,
+				19F9B9F41ECE8B1D00D4E6C0 /* EditMyProfileViewController.swift in Sources */,
+				19F9B9EC1ECE89C800D4E6C0 /* ResetPasswordViewController.swift in Sources */,
 				19A898391ECD38B60050E216 /* AppDelegate.swift in Sources */,
 				19C9C36C1ECD4F37000F21AC /* LocationViewController.swift in Sources */,
+				19F9B9EE1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift in Sources */,
+				19F9B9F21ECE8AF300D4E6C0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

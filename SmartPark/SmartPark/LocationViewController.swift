@@ -11,22 +11,6 @@ import CoreLocation
 import MapKit
 
 class LocationViewController: UIViewController {
-//    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-//        
-//        let annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
-//        
-//        if annotation.title! == "My Place" {
-//            
-//            annotationView.pinTintColor = UIColor.green
-//            
-//        } else {
-//            
-//            annotationView.pinTintColor = UIColor.red
-//        }
-//        
-//        
-//        return annotationView
-//    }
 
     @IBOutlet weak var mapView: MKMapView!
     
@@ -38,6 +22,7 @@ class LocationViewController: UIViewController {
         mapView.showsUserLocation = true
 
         manager.delegate = self
+        mapView.delegate = self
         manager.requestAlwaysAuthorization()
         manager.requestLocation()
        
@@ -54,7 +39,7 @@ class LocationViewController: UIViewController {
         
         let pointTwo = MKPointAnnotation()
         pointTwo.coordinate = CLLocationCoordinate2D(latitude: 35.993060, longitude: -78.904240)
-        pointTwo.title = "Parking spot is available"
+        pointTwo.title = "Parking Spot is Available"
         
         mapView.addAnnotation(pointTwo)
        
@@ -62,26 +47,27 @@ class LocationViewController: UIViewController {
         //Point #3
         let pointThree = MKPointAnnotation()
         pointThree.coordinate = CLLocationCoordinate2D(latitude: 35.995431, longitude: -78.905710)
-        pointThree.title = "Parking spot is available"
-        
+        pointThree.title = "Parking Spot is Available"
+    
         mapView.addAnnotation(pointThree)
         
-//    //Point #4
+//    //Point #4 //Parking Garage
+        //35.995563, -78.904879
         let pointFour = MKPointAnnotation()
-        pointFour.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointFour.title = "Civic center"
+        pointFour.coordinate = CLLocationCoordinate2D(latitude: 35.995563, longitude: -78.904879)
+        pointFour.title = "Parking Garage is Full"
         mapView.addAnnotation(pointFour)
         
-        //Point #5
+        //Point #5 35.996982, -78.906092
         let pointFive = MKPointAnnotation()
-        pointFive.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointFive.title = "Civic center"
+        pointFive.coordinate = CLLocationCoordinate2D(latitude: 35.996982, longitude: -78.906092)
+        pointFive.title = "Park Spot currently unavailable"
         mapView.addAnnotation(pointFive)
         
-        //Point #6
+        //Point #6 35.996986, -78.906382
         let pointSix = MKPointAnnotation()
-        pointSix.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
-        pointSix.title = "Civic center"
+        pointSix.coordinate = CLLocationCoordinate2D(latitude: 35.996986, longitude: -78.906382)
+        pointSix.title = "Parking Spot currently unavailable"
         mapView.addAnnotation(pointSix)
         
         //Point #7
@@ -168,6 +154,35 @@ class LocationViewController: UIViewController {
         pointTwenty.title = "Civic center"
         mapView.addAnnotation(pointTwenty)
         
+        //point 25
+        let pointTwentyFive = MKPointAnnotation()
+        pointTwentyFive.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
+        pointTwentyFive.title = "Civic center"
+        mapView.addAnnotation(pointTwentyFive)
+        
+        //point 21
+        let pointTwentyOne = MKPointAnnotation()
+        pointTwentyOne.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
+        pointTwentyOne.title = "Civic center"
+        mapView.addAnnotation(pointTwentyOne)
+        
+        //point 22
+        let pointTwentyTwo = MKPointAnnotation()
+        pointTwentyTwo.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
+        pointTwentyTwo.title = "Civic center"
+        mapView.addAnnotation(pointTwentyTwo)
+        
+        //point 23
+        let pointTwentyThree = MKPointAnnotation()
+        pointTwentyThree.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
+        pointTwentyThree.title = "Civic center"
+        mapView.addAnnotation(pointTwentyThree)
+        //point 24
+        let pointTwentyFour = MKPointAnnotation()
+        pointTwentyFour.coordinate = CLLocationCoordinate2D(latitude: 37, longitude: -122)
+        pointTwentyFour.title = "Civic center"
+        mapView.addAnnotation(pointTwentyFour)
+        
         
         
     }
@@ -197,9 +212,26 @@ extension LocationViewController: CLLocationManagerDelegate {
     }
     
 }
-//extension MKPinAnnotationView {
-   // class func greenPinColor() -> UIColor {
-      //  return UIColor.green
-   // }
-    //MKPinAnnotationView.greenPinColor()
-//}
+
+extension LocationViewController: MKMapViewDelegate {
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        let annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
+        
+        annotationView.canShowCallout = true
+        
+        if annotation.title! == "Parking Spot is Available" {
+            
+            annotationView.pinTintColor = UIColor.green
+            
+        } else if annotation is MKUserLocation {
+            return nil
+        }
+        else {
+            
+            annotationView.pinTintColor = UIColor.red
+        }
+        
+        return annotationView
+    }
+}
