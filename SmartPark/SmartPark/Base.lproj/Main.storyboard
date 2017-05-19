@@ -452,6 +452,7 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="Jqv-jW-HrV" id="4dG-uU-Zos"/>
+                        <segue destination="psc-eL-sdO" kind="show" identifier="displayParkingSegue" id="sx0-ie-DNK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fon-oG-6Yk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -511,7 +512,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="moA-Js-ffa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4087.1999999999998" y="742.5787106446777"/>
+            <point key="canvasLocation" x="4466" y="-147"/>
+        </scene>
+        <!--Display Parking View Controller-->
+        <scene sceneID="Aum-fd-B0F">
+            <objects>
+                <viewController id="psc-eL-sdO" customClass="DisplayParkingViewController" customModule="SmartPark" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ip-F9-0eS"/>
+                        <viewControllerLayoutGuide type="bottom" id="ivE-p4-e7U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3zG-ah-ZE8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="VDr-Xb-c5d">
+                                <rect key="frame" x="0.0" y="190" width="375" height="386"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ivE-p4-e7U" firstAttribute="top" secondItem="VDr-Xb-c5d" secondAttribute="bottom" id="2q0-gO-Cog"/>
+                            <constraint firstItem="VDr-Xb-c5d" firstAttribute="leading" secondItem="3zG-ah-ZE8" secondAttribute="leading" id="U12-ni-60R"/>
+                            <constraint firstItem="VDr-Xb-c5d" firstAttribute="top" secondItem="1Ip-F9-0eS" secondAttribute="bottom" id="YKc-yT-wCM"/>
+                            <constraint firstAttribute="trailing" secondItem="VDr-Xb-c5d" secondAttribute="trailing" id="hwA-ry-y10"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6jT-28-E9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4528.8000000000002" y="619.34032983508246"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="pCa-bN-m7x">
@@ -653,6 +683,23 @@ FiBSZW1lYmVyIG15IHBhc3N3b3JkA
             </objects>
             <point key="canvasLocation" x="488.80000000000001" y="25.637181409295355"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Ubd-Zu-vIs">
+            <objects>
+                <viewController id="uGA-CQ-BFF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m1d-Cm-mcu"/>
+                        <viewControllerLayoutGuide type="bottom" id="G3y-M2-Jr9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="koz-7L-NNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RfT-NY-0gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="IMG_4188 2.JPG" width="188" height="106"/>
@@ -665,9 +712,9 @@ FiBSZW1lYmVyIG15IHBhc3N3b3JkA
         <image name="starbucks.jpeg" width="528" height="106"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eWP-U6-ErK"/>
-        <segue reference="Al6-wP-txD"/>
         <segue reference="P2e-gx-oU3"/>
+        <segue reference="Al6-wP-txD"/>
+        <segue reference="wbO-f5-4HY"/>
         <segue reference="O82-kR-7pc"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.4184078585838843" green="0.26792401717685899" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

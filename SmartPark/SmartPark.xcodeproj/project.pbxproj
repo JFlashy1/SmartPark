@@ -21,6 +21,7 @@
 		19C9C37D1ECDE37F000F21AC /* IMG_4187 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */; };
 		19C9C37E1ECDE37F000F21AC /* IMG_4188 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */; };
 		19C9C3801ECDFAF0000F21AC /* american-underground.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 19C9C37F1ECDFAF0000F21AC /* american-underground.gpx */; };
+		19E50DE01ECEA3700086A526 /* DisplayParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E50DDF1ECEA3700086A526 /* DisplayParkingViewController.swift */; };
 		19F9B9E11ECE75B500D4E6C0 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9DF1ECE75B500D4E6C0 /* download.jpeg */; };
 		19F9B9E21ECE75B500D4E6C0 /* KinXrdkzT.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E01ECE75B500D4E6C0 /* KinXrdkzT.png */; };
 		19F9B9E41ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F9B9E31ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png */; };
@@ -76,6 +77,7 @@
 		19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4187 2.JPG"; path = "../../../../../Downloads/IMG_4187 2.JPG"; sourceTree = "<group>"; };
 		19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_4188 2.JPG"; path = "../../../../../Downloads/IMG_4188 2.JPG"; sourceTree = "<group>"; };
 		19C9C37F1ECDFAF0000F21AC /* american-underground.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "american-underground.gpx"; sourceTree = "<group>"; };
+		19E50DDF1ECEA3700086A526 /* DisplayParkingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayParkingViewController.swift; sourceTree = "<group>"; };
 		19F9B9DF1ECE75B500D4E6C0 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		19F9B9E01ECE75B500D4E6C0 /* KinXrdkzT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KinXrdkzT.png; sourceTree = "<group>"; };
 		19F9B9E31ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CC_TTF_Website_Banner-Slider_bannerENGLISH3.png"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */,
 				19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */,
 				19A8983C1ECD38B60050E216 /* Main.storyboard */,
+				19E50DDF1ECEA3700086A526 /* DisplayParkingViewController.swift */,
 				19F9B9FD1ECE982200D4E6C0 /* bulls.jpeg */,
 				19F9B9FB1ECE969B00D4E6C0 /* starbucks.jpeg */,
 				19F9B9F91ECE963300D4E6C0 /* images1 copy.jpg */,
@@ -351,6 +354,7 @@
 				19A898391ECD38B60050E216 /* AppDelegate.swift in Sources */,
 				19C9C36C1ECD4F37000F21AC /* LocationViewController.swift in Sources */,
 				19F9B9EE1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift in Sources */,
+				19E50DE01ECEA3700086A526 /* DisplayParkingViewController.swift in Sources */,
 				19F9B9F21ECE8AF300D4E6C0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

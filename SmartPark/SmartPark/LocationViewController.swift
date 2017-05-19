@@ -218,6 +218,11 @@ extension LocationViewController: MKMapViewDelegate {
         
         let annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pin")
         
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        button.setImage(UIImage(named: "smartsmall.png")!, for: .normal)
+        
+        annotationView.leftCalloutAccessoryView = button
+        
         annotationView.canShowCallout = true
         
         if annotation.title! == "Parking Spot is Available" {
@@ -233,5 +238,20 @@ extension LocationViewController: MKMapViewDelegate {
         }
         
         return annotationView
+    }
+    
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        
+    }
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        
+        let coordinate = CLLocationCoordinate2DMake(35.996947,  -78.904975)
+        let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+        mapItem.name = "Parking Spot"
+        mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+        
+//        performSegue(withIdentifier: "displayParkingSegue", sender: self)
+        
     }
 }
