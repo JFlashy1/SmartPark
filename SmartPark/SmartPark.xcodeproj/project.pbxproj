@@ -11,6 +11,9 @@
 		196DEA681ECF373A00BC1A81 /* LeavingSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEA671ECF373A00BC1A81 /* LeavingSpotViewController.swift */; };
 		196DEA6A1ECF4EDE00BC1A81 /* LeftSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DEA691ECF4EDE00BC1A81 /* LeftSpotViewController.swift */; };
 		196DEA6C1ECF688200BC1A81 /* parking lot symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 196DEA6B1ECF688200BC1A81 /* parking lot symbol.png */; };
+		1985979A1ECF7BDD00F5310E /* LotViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198597991ECF7BDD00F5310E /* LotViewViewController.swift */; };
+		1985979C1ECF7CE300F5310E /* parkinglot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1985979B1ECF7CE300F5310E /* parkinglot.png */; };
+		1985979E1ECF7E5700F5310E /* parkinglot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1985979D1ECF7E5700F5310E /* parkinglot2.png */; };
 		19A898391ECD38B60050E216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A898381ECD38B60050E216 /* AppDelegate.swift */; };
 		19A8983B1ECD38B60050E216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8983A1ECD38B60050E216 /* ViewController.swift */; };
 		19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A8983C1ECD38B60050E216 /* Main.storyboard */; };
@@ -65,6 +68,9 @@
 		196DEA671ECF373A00BC1A81 /* LeavingSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavingSpotViewController.swift; sourceTree = "<group>"; };
 		196DEA691ECF4EDE00BC1A81 /* LeftSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSpotViewController.swift; sourceTree = "<group>"; };
 		196DEA6B1ECF688200BC1A81 /* parking lot symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parking lot symbol.png"; sourceTree = "<group>"; };
+		198597991ECF7BDD00F5310E /* LotViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotViewViewController.swift; sourceTree = "<group>"; };
+		1985979B1ECF7CE300F5310E /* parkinglot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkinglot.png; sourceTree = "<group>"; };
+		1985979D1ECF7E5700F5310E /* parkinglot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkinglot2.png; sourceTree = "<group>"; };
 		19A898351ECD38B60050E216 /* SmartPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A898381ECD38B60050E216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19A8983A1ECD38B60050E216 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +173,9 @@
 				19C9C3791ECDE37F000F21AC /* IMG_4187 2.JPG */,
 				19C9C37A1ECDE37F000F21AC /* IMG_4188 2.JPG */,
 				19A8983C1ECD38B60050E216 /* Main.storyboard */,
+				1985979D1ECF7E5700F5310E /* parkinglot2.png */,
+				1985979B1ECF7CE300F5310E /* parkinglot.png */,
+				198597991ECF7BDD00F5310E /* LotViewViewController.swift */,
 				196DEA6B1ECF688200BC1A81 /* parking lot symbol.png */,
 				196DEA691ECF4EDE00BC1A81 /* LeftSpotViewController.swift */,
 				196DEA671ECF373A00BC1A81 /* LeavingSpotViewController.swift */,
@@ -328,12 +337,14 @@
 				19A898431ECD38B60050E216 /* Assets.xcassets in Resources */,
 				19F9B9E41ECE77D700D4E6C0 /* CC_TTF_Website_Banner-Slider_bannerENGLISH3.png in Resources */,
 				19F9B9EA1ECE7F2500D4E6C0 /* smart (1) 2.png in Resources */,
+				1985979C1ECF7CE300F5310E /* parkinglot.png in Resources */,
 				19C9C3801ECDFAF0000F21AC /* american-underground.gpx in Resources */,
 				19F9B9E21ECE75B500D4E6C0 /* KinXrdkzT.png in Resources */,
 				19F9B9E11ECE75B500D4E6C0 /* download.jpeg in Resources */,
 				19F9B9E61ECE794A00D4E6C0 /* banner1.png in Resources */,
 				196DEA661ECF223400BC1A81 /* Ad exit.png in Resources */,
 				19A8983E1ECD38B60050E216 /* Main.storyboard in Resources */,
+				1985979E1ECF7E5700F5310E /* parkinglot2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +380,7 @@
 				19F9B9EC1ECE89C800D4E6C0 /* ResetPasswordViewController.swift in Sources */,
 				19A898391ECD38B60050E216 /* AppDelegate.swift in Sources */,
 				19C9C36C1ECD4F37000F21AC /* LocationViewController.swift in Sources */,
+				1985979A1ECF7BDD00F5310E /* LotViewViewController.swift in Sources */,
 				19F9B9EE1ECE8A5800D4E6C0 /* PasswordWasResetViewController.swift in Sources */,
 				19E50DE01ECEA3700086A526 /* DisplayParkingViewController.swift in Sources */,
 				19F9B9F21ECE8AF300D4E6C0 /* SettingsViewController.swift in Sources */,

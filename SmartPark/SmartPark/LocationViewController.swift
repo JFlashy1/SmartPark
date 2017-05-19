@@ -190,15 +190,19 @@ class LocationViewController: UIViewController {
         pointTwentySix.title = "Spot Available in 15 minutes"
         mapView.addAnnotation(pointTwentySix)
         
-        //point 27 Parking lot view
+       
         
-        //point 28 yellow
+        //point 28 yellow 35.991042, -78.907117
         let pointTwentyEight = MKPointAnnotation()
-        pointTwentyEight.coordinate = CLLocationCoordinate2D(latitude: 35.994341, longitude: -78.902051)
+        pointTwentyEight.coordinate = CLLocationCoordinate2D(latitude: 35.991042, longitude: -78.907117)
         pointTwentyEight.title = "Spot Available in 15 minutes"
         mapView.addAnnotation(pointTwentyEight)
         
-        //point 29
+        //point 29 ,,
+        let pointTwentyNine = MKPointAnnotation()
+        pointTwentyNine.coordinate = CLLocationCoordinate2D(latitude: 35.989453, longitude: -78.906491)
+        pointTwentyNine.title = "Spot Available in 15 minutes"
+        mapView.addAnnotation(pointTwentyNine)
         
         //point 30 
         let pointThirty = MKPointAnnotation()
